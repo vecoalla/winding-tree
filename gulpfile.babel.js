@@ -20,8 +20,9 @@ export function js() {
         'assets/js/bootstrap-overrides/navbar.js',
         'assets/js/components/banners/index.js',
         'assets/js/components/already-with-us.js',
+        'assets/js/components/features.js',
         'assets/js/components/partners.js',
-        'assets/js/components/teambio.js'
+        'assets/js/components/team.js'
     ])
         .pipe(babel())
         .pipe(uglify())
@@ -30,7 +31,6 @@ export function js() {
 }
 
 // Img
-
 export function img() {
     return gulp.src('assets/img/**/*.{gif,jpg,jpeg,png,svg}')
         .pipe(imagemin([

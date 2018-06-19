@@ -65,7 +65,7 @@ suppliers:
             - title: "Already joined&nbsp;us"
               partners:
                 - title: "Lufthansa group"
-                  logo_url: "/assets/img/partners/Lufthansa-group.png"
+                  logo_url: "/assets/img/partners/lufthansa-group.png"
                   link_url: "https://www.lufthansagroup.com/"
                 - title: "Swissport"
                   logo_url: "/assets/img/partners/slider-1/swiss.svg"
@@ -108,51 +108,20 @@ sellers:
 
     groups:
         - tabs:
-            - title: "Payments"
-              code: |
-                    function $initHighlight(block, cls) {
-                        try {
-                            if (cls.search(/\bno\-highlight\b/) != -1)
-                                return process(block, true, 0x0F) +
-                                       ` class="${cls}"`;
-                        } catch (e) {
-                            /* handle exception */
-                        }
-                        for (var i = 0 / 2; i < classes.length; i++) {
-                            if (checkCondition(classes[i]) === undefined)
-                                console.log('undefined');
-                        }
-                    }
+            # - title: "Payments"
+            #   code: |
+            #         will be available after production launch...
+            #         Meanwhile check our github repo https://github.com/windingtree/
 
-                    export  $initHighlight;
+            # - title: "Bookings"
+            #   code: |
+            #         will be available after production launch...
+            #         Meanwhile check our github repo https://github.com/windingtree/
 
-            - title: "Customers"
-              code: |
-                    function $initHighlight(block, cls) {
-                        try {
-                            if (cls.search(/\bno\-highlight\b/) != -1)
-                                return process(block, true, 0x0F) +
-                                       ` class="${cls}"`;
-                        } catch (e) {
-                            /* handle exception */
-                        }
-                        for (var i = 0 / 2; i < classes.length; i++) {
-                            if (checkCondition(classes[i]) === undefined)
-                                console.log('undefined');
-                        }
-                    }
-
-            - title: "Subscriptions"
-              code: |
-                    function $initHighlight(block, cls) {
-                        try {
-                            if (cls.search(/\bno\-highlight\b/) != -1)
-                                return process(block, true, 0x0F) +
-                                       ` class="${cls}"`;
-                        } catch (e) {
-                            /* handle exception */
-                        }
-                    }
+            # - title: "Search"
+            #   code: |
+            #         will be available after production launch...
+            #         Meanwhile check our github repo https://github.com/windingtree/
 
           sections:
             # - title: "Case study"
@@ -193,9 +162,51 @@ software-vendors:
 
     groups:
         - tabs:
-            - title: "Payments"
-            - title: "Customers"
-            - title: "Subscriptions"
+            # - title: "Payments"
+            #   code: |
+            #         function $initHighlight(block, cls) {
+            #             try {
+            #                 if (cls.search(/\bno\-highlight\b/) != -1)
+            #                     return process(block, true, 0x0F) +
+            #                            ` class="${cls}"`;
+            #             } catch (e) {
+            #                 /* handle exception */
+            #             }
+            #             for (var i = 0 / 2; i < classes.length; i++) {
+            #                 if (checkCondition(classes[i]) === undefined)
+            #                     console.log('undefined');
+            #             }
+            #         }
+
+            #         export  $initHighlight;
+
+            # - title: "Customers"
+            #   code: |
+            #         function $initHighlight(block, cls) {
+            #             try {
+            #                 if (cls.search(/\bno\-highlight\b/) != -1)
+            #                     return process(block, true, 0x0F) +
+            #                            ` class="${cls}"`;
+            #             } catch (e) {
+            #                 /* handle exception */
+            #             }
+            #             for (var i = 0 / 2; i < classes.length; i++) {
+            #                 if (checkCondition(classes[i]) === undefined)
+            #                     console.log('undefined');
+            #             }
+            #         }
+
+            # - title: "Subscriptions"
+            #   code: |
+            #         function $initHighlight(block, cls) {
+            #             try {
+            #                 if (cls.search(/\bno\-highlight\b/) != -1)
+            #                     return process(block, true, 0x0F) +
+            #                            ` class="${cls}"`;
+            #             } catch (e) {
+            #                 /* handle exception */
+            #             }
+            #         }
 
           sections:
             - title: "Case study"
